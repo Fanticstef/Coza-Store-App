@@ -1,0 +1,89 @@
+a {
+  text-decoration: none;
+}
+
+.banner-center {
+  position: relative;
+}
+.banner-center-item {
+  position: absolute;
+  top: 24%;
+  left: -37%;
+}
+.banner-center-item span {
+  font-size: 2rem;
+  color: #333;
+}
+.banner-center-item h5 {
+  font-size: 3.5rem;
+  font-family: PlayfairDisplay-Bold;
+  color: #333;
+}
+.banner-center .banner-center-item .banner-btn {
+  border-radius: 23px;
+  background-color: #717fe0;
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  line-height: 1.466667;
+  text-transform: uppercase;
+  color: white;
+  padding: 1rem 2.3rem;
+  text-decoration: none;
+  line-height: 1.466667;
+}
+a {
+  color: #6c7ae0;
+}
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+.btn-style {
+  font-family: Poppins-Medium;
+}
+.icon-header-item-user {
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* bootstrap model */
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(189, 189, 189, 0.9);
+  z-index: 10;
+}
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  min-width: 30rem;
+}
+.modal-wrapper .pointer {
+  cursor: pointer;
+}
+.user-icon-pointer {
+  cursor: pointer;
+}
+.set-image-cart {
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  .set-image-cart {
+    width: 50%;
+  }
+  .set-image-filter{
+    width: 80%;
+  }
+}
